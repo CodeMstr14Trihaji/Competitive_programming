@@ -1,0 +1,22 @@
+name: C++ Independent File Tests
+
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up C++ environment
+      run: sudo apt-get install g++ make
+
+    - name: Compile and run each C++ file
+      run: |
+        find . -name '*.cpp' -print0 | while IFS= read -r -d '' file; do
+          executable="${file%.cpp}"
+          g++ -Wall -Wextra -std=c++17 "$file" -o "$executable"
+          ./"$executable"
+        done
