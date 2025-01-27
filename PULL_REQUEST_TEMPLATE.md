@@ -1,5 +1,6 @@
 ## Deskripsi
 Jelaskan perubahan yang dilakukan dalam pull request ini, termasuk penjelasan tentang solusi yang diterapkan untuk masalah competitive programming terkait.
+Berikan tanda x pada checklist dibawah.
 
 ## Tipe Perubahan
 Pilih tipe perubahan yang kamu lakukan:
