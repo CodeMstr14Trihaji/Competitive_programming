@@ -9,6 +9,9 @@ Untuk sekarang, solusi dan permasalahan diambil dari GeeksforGeeks. Berikut daft
 - [x] Sum of Array
 - [x] Max and Min element in array
 - [x] Counting frequencies of array element
+- [x] Float and Precision
+- [x] Prefix Array
+    - [x] Prefix sum Array
 
 
 
