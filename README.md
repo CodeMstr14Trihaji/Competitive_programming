@@ -6,8 +6,11 @@ Untuk sekarang, solusi dan permasalahan diambil dari GeeksforGeeks. Berikut daft
 - [x] Reverse an array
 - [x] Sum of digits
 - [x] Polidrome
+- [x] Sum of Array
 - [x] Max and Min element in array
 - [x] Counting frequencies of array element
+
+
 
 ## Number Theory and Combinatorics
 - [ ]
